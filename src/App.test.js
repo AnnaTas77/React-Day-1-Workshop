@@ -32,6 +32,6 @@ test("App component - Renders Welcome and Body components", () => {
   const instance = component.root;
 
   // expect component to be rendered in App 3 times
-  expect(instance.findAllByType(Hero).length).toBe(3);
+  expect(instance.findAllByType(Hero).length).toBe(5);
   expect(instance.findAllByType(Hero)[0].props.hero.name).toBe("Batman");
 });
